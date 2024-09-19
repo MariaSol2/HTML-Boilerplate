@@ -151,6 +151,7 @@ address {
 
 /* ---------------- Base Header - Footer Styles----------------*/
 header {
+  background-color: #202322;
   display: flex;
   justify-content: center;
   padding: 15px 0;
@@ -164,7 +165,12 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+}
+
 .header-divider {
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -172,6 +178,9 @@ header .content-wrapper {
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -180,7 +189,12 @@ header nav ul {
   width: 100%;
 }
 
+header nav ul li {
+  font-size: 1.125em;
+}
+
 footer {
+  background-color: #202322;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,6 +264,7 @@ footer .copyright {
 /* Aside */
 
 aside {
+  background-color: #527158;
   display: flex;
   justify-content: center;
 }
