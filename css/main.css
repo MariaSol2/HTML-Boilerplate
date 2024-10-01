@@ -145,7 +145,7 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  
 }
 
 
@@ -233,10 +233,6 @@ footer .social-icons p {
 
 footer .social-icons p i {
   font-size: 1.3125em;
-}
-
-.social-icons p:last-child {
-  margin-right: 0;
 }
 
 footer .copyright {
@@ -411,11 +407,11 @@ input[type=button] {
 }
 
 .faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
-  margin: 50px 0 0 0;
 }
 
 .faq h2 {
@@ -527,7 +523,7 @@ input[type=button] {
   /* General styles */
   .content-wrapper {
     max-width: 640px;
-    margin: 100px 0;
+    height: 100%;
   }
 
   h2 {
@@ -714,10 +710,10 @@ footer .social-icons {
 }
 
 .faq h4,
-  .faq p {
-    font-size: .875em;
-    line-height: 1.125;
-  }
+.faq p {
+  font-size: .875em;
+  line-height: 1.125;
+}
 
 }
 
@@ -727,6 +723,7 @@ footer .social-icons {
   /* General styles */
   .content-wrapper {
     max-width: 960px;
+    height: 100%;
   }
   /* Header */
   header {
@@ -867,14 +864,6 @@ footer .social-icons {
 
 /* ============ FAQ page =========== */
 
-.faq .content-wrapper {
-  justify-content: space-between;
-}
-
-.faq-content {
-  flex-basis: 45%;
-}
-
 .faq h2 {
   width: 100%;
   font-size: 3em;
@@ -882,7 +871,7 @@ footer .social-icons {
 
 .faq h4,
 .faq p {
-  font-size: 1.125;
+  font-size: 1.125em;
   line-height: 1;
 }
 }
